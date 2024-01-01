@@ -7,7 +7,7 @@
         <input type='textarea' v-model="inputText" />
     </form>
 
-    <button @click="sentMessage()">发送</button>
+    <button @click="sentMessage()" draggable="true">发送</button>
     <div>
         昵称<input type='textarea' v-model="userName" @change="changeUserName" />
         <form @submit="sentSpeak()" v-on:submit.prevent>

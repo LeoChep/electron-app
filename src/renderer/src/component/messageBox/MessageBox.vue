@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div @onDrop="">
 
         <el-card class="box-card " shadow="hover" v-for="item in messageList" :key="item.id">
             <template #header>
